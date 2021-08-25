@@ -101,13 +101,13 @@ function USBlaser_monocrom_OpeningFcn(hObject, eventdata, handles, varargin)
     end
 
     % draw some images on the GUI
-    [image,map] = imread('Background_Image.gif');
+    [image,map] = imread('resources/Background_Image.gif');
     imshow( image,map , 'Parent',handles.IMAGE_FRAME );
 
-    [image,map] = imread('UCM_logo.png');
+    [image,map] = imread('resources/UCM_logo.png');
     imshow( image,map ,'Parent',handles.LOGO_FRAME );
 
-    [image,map] = imread('CC_by-nc-sa.jpg');
+    [image,map] = imread('resources/CC_by-nc-sa.jpg');
     imshow( image,map , 'Parent',handles.CC_FRAME );
 
     % %%% --------------------------------------------- %%% -------------------
